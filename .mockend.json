@@ -72,15 +72,5 @@
     "post": {
       "belongsTo": "Post"
     }
-  },
-  "User": {
-    "_": {
-      "items": 50,
-      "data": []
-    },
-    "name": { "string": {} },
-    "email": { "string": {} },
-    "username": { "string": {} },
-    "phone": { "number": {} },
   }
 }
