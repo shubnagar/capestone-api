@@ -10,7 +10,7 @@
       "string": {}
     },
     "phone": {
-      "int": {}
+      "string": {}
     },
     "isPublic": {
       "boolean": {}
