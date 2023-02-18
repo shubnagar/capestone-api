@@ -75,12 +75,9 @@
   },
   "User": {
     "_": {
-      // Define how many items you need 
       "items": 50,
-      // Set custom data
       "data": []
     },
-    // Use random generators
     "name": { "string": {} },
     "email": { "string": {} },
     "username": { "string": {} },
