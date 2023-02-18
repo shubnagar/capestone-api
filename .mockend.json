@@ -1,6 +1,4 @@
-{
-  "Post": {
-    "_": {
+ "Post": {
       "items": 10,
       "data": [
         {
@@ -11,8 +9,7 @@
           "title": "Second title",
           "body": "The rest of the posts will have random values"
         }
-      ]
-    },
+      ],
     "cover": {
       "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
     },
@@ -51,9 +48,7 @@
     }
   },
   "Comment": {
-    "_": {
-      "items": 25
-    },
+      "items": 25,
     "email": {
       "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
     },
@@ -73,4 +68,3 @@
       "belongsTo": "Post"
     }
   }
-}
