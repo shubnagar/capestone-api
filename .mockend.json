@@ -1,12 +1,19 @@
 {
- "User": {
-    "_": {
-      "items": 50,
-      "data": []
+  "User": {
+    "name": {
+      "string": {}
     },
-    "name": { "string": {} },
-    "email": { "string": {} },
-    "username": { "string": {} },
-    "phone": { "number": {} },
+    "email": {
+      "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+    },
+    "username": {
+      "string": {}
+    },
+    "phone": {
+      "int": {}
+    },
+    "isPublic": {
+      "boolean": {}
+    }
   }
 }
